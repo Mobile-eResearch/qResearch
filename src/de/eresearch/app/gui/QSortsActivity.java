@@ -7,14 +7,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.io.File;
-
 import de.eresearch.app.R;
 import de.eresearch.app.gui.dialogs.QSortsDeleteDialog;
 import de.eresearch.app.logic.model.QSort;
-import de.eresearch.app.logic.model.Log;
 import de.eresearch.app.logic.tasks.common.qsort.DeleteQSortTask;
-import de.eresearch.app.logic.tasks.common.qsort.GetQSortTask;
 
 /** 
  * Activity to provide UI for listing and viewing qsorts. This activity consists of 

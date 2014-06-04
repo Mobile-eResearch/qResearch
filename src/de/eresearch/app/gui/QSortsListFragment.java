@@ -2,7 +2,6 @@ package de.eresearch.app.gui;
 
 import android.app.Activity;
 import android.app.Fragment;
-import android.app.ListFragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
@@ -10,23 +9,19 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
 
 import de.eresearch.app.R;
 import de.eresearch.app.gui.adapter.QSortsListFragmentArrayAdapter;
-import de.eresearch.app.gui.adapter.StudiesListFragmentArrayAdapter;
 import de.eresearch.app.logic.model.QSort;
-import de.eresearch.app.logic.model.Study;
 import de.eresearch.app.logic.tasks.common.qsort.GetQSortListTask;
 
 import java.util.ArrayList;

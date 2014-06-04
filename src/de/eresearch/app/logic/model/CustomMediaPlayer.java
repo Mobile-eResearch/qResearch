@@ -5,6 +5,12 @@ import android.media.MediaPlayer;
 
 import java.io.IOException;
 
+/**
+ * Model of a custom MediaPlayer. Important to override some methods of MediaPlayer
+ * 
+ * @author domme
+ *
+ */
 public class CustomMediaPlayer extends MediaPlayer {
 
     private AudioRecord mAudioRecord;

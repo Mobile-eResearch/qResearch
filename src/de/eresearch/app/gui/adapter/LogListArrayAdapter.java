@@ -4,7 +4,6 @@ package de.eresearch.app.gui.adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
-import android.media.MediaPlayer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -27,7 +26,11 @@ import de.eresearch.app.logic.model.Picture;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
+/**
+ * Custom ArrayAdapter for LogParentActivity
+ * @author domme
+ *
+ */
 public class LogListArrayAdapter extends ArrayAdapter<Loggable> {
 
     private final Context mContext;

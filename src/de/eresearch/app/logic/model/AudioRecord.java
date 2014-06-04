@@ -12,6 +12,7 @@ import java.io.IOException;
 /**
  * @author Tammo -- AudioRecord Objects provide a prepared {@link MediaRecorder}
  *         and a prepared {@link MediaPlayer}.
+ * @author domme -- The playing-part of the AudioRecord
  */
 public class AudioRecord {
 

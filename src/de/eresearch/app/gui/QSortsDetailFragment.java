@@ -2,26 +2,17 @@ package de.eresearch.app.gui;
 
 import android.app.Fragment;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Bundle;
-import android.support.v4.widget.SimpleCursorAdapter;
-import android.util.Log;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
 
 import de.eresearch.app.R;
 import de.eresearch.app.gui.dialogs.QSortsPyramidDialog;
@@ -32,8 +23,11 @@ import de.eresearch.app.logic.model.Question;
 import de.eresearch.app.logic.model.Study;
 import de.eresearch.app.logic.tasks.common.qsort.GetLoggablesTask;
 import de.eresearch.app.logic.tasks.common.qsort.GetQSortTask;
-import de.eresearch.app.logic.tasks.common.questions.GetQuestionsTask;
 import de.eresearch.app.logic.tasks.common.study.GetFullStudyTask;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
 
 /**
  * @author Marcel L.

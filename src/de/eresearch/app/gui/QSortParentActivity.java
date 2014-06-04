@@ -16,7 +16,6 @@ import de.eresearch.app.gui.dialogs.QSortNoteDialog;
 import de.eresearch.app.gui.dialogs.QSortPauseDialog;
 import de.eresearch.app.logic.model.Note;
 import de.eresearch.app.logic.model.Phase;
-import de.eresearch.app.logic.tasks.common.qsort.SaveQSortTask;
 import de.eresearch.app.logic.tasks.media.SaveNoteTask;
 
 /** 

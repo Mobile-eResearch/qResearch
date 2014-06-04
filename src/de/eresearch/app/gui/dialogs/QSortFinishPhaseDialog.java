@@ -1,7 +1,6 @@
 
 package de.eresearch.app.gui.dialogs;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -18,6 +17,7 @@ import de.eresearch.app.logic.model.Question;
 import de.eresearch.app.logic.tasks.common.questions.GetQuestionsTask;
 import de.eresearch.app.logic.tasks.common.questions.GetQuestionsTask.Callbacks;
 import de.eresearch.app.logic.tasks.media.SaveAudioTask;
+
 import java.util.List;
 
 /**

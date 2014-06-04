@@ -10,16 +10,19 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.sql.Savepoint;
-
 import de.eresearch.app.R;
 import de.eresearch.app.gui.CurrentQSort;
 import de.eresearch.app.logic.model.Note;
 import de.eresearch.app.logic.model.Phase;
-import de.eresearch.app.logic.model.QSort;
 import de.eresearch.app.logic.tasks.media.SaveNoteTask;
 import de.eresearch.app.logic.tasks.media.SaveNoteTask.Callbacks;
 
+/**
+ * Class for the note-dialog to add a note in the QSort
+ * 
+ * @author domme
+ *
+ */
 public class QSortNoteDialog extends Dialog  implements SaveNoteTask.Callbacks{
 
     private Context mContext;

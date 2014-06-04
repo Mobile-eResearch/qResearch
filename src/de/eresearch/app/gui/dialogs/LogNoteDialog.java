@@ -22,6 +22,12 @@ import de.eresearch.app.logic.tasks.media.SaveNoteTask;
 import de.eresearch.app.logic.tasks.media.SaveNoteTask.Callbacks;
 import de.eresearch.app.util.InputFilterMinMax;
 
+/**
+ * Class for the note-dialog in the log
+ * 
+ * @author domme
+ *
+ */
 public class LogNoteDialog extends Dialog {
 
     private Context mContext;
