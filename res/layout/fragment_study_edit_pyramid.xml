@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_distributing_poles_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/distPole_title"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText_left_pole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/leftPoleHint"
+                android:maxLength="25"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:singleLine="true">
+            </EditText>
+
+            <TextView
+                android:id="@+id/text_distributing_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/distribution_title"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText_distributing"
+                android:layout_width="match_parent"
+                android:inputType="none"
+                android:focusable="false"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+           <EditText
+                android:id="@+id/editText_right_pole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rightPoleHint"
+                android:maxLength="25"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:singleLine="true">
+            </EditText>
+
+            <LinearLayout
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/text_field_count_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fieldCount_title"
+                        android:gravity="center_horizontal"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                   <EditText
+                        android:id="@+id/text_field_count_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:inputType="none"
+                        android:focusable="false"
+                        android:textAppearance="?android:attr/textAppearanceSmall">
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/text_column_count_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/columnCount_title"
+                        android:gravity="center_horizontal"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/text_column_count_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                         android:focusable="false"
+                        android:gravity="center_horizontal"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/study_edit_pyramid_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_isValid"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_height="20dp"
+        android:layout_weight="0" />
+    
+     </LinearLayout>
+</LinearLayout>

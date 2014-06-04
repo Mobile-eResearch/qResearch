@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/answer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/study_edit_answer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_title" />
+
+    <View
+        android:id="@+id/answer_header_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/text_title" />
+
+    <Space
+        android:id="@+id/dummy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/question_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        
+        android:hint="@string/study_edit_closed_questions_dialog_hint"
+        android:inputType="textMultiLine"
+        android:maxLines="8" />
+
+</LinearLayout>

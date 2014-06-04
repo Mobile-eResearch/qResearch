@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_action_help"
+        android:title="@string/qsort_parent_activity_help" 
+        android:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_notice"
+        android:icon="@drawable/ic_action_notice"
+        android:title="@string/qsort_parent_activity_notice" 
+        android:showAsAction="always"/>
+        
+    <item
+        android:id="@+id/action_pause"
+        android:icon="@drawable/ic_action_pause"
+        android:title="@string/qsort_parent_activity_pause" 
+        android:showAsAction="always"/>
+        
+    <item
+        android:id="@+id/action_cancle"
+        android:icon="@drawable/ic_action_cancle"
+        android:title="@string/qsort_parent_activity_cancle" 
+        android:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_finish"
+        android:icon="@drawable/ic_action_unfinished"
+        android:title="@string/qsort_parent_activity_finish" 
+        android:showAsAction="always"/>
+</menu>

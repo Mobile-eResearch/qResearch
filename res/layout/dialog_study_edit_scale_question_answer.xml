@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/answer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/study_edit_scale"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_title" />
+
+    <View
+        android:id="@+id/answer_header_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/answer_header"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/text_title" />
+
+    <Space
+        android:id="@+id/dummy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/answer_skalenpole_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer_header_line"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/study_edit_scaled_questions_scalepoles_headline"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_title" />
+    
+     <View
+        android:id="@+id/scalenpole_header_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/answer_skalenpole_header"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/text_title" />
+
+    <EditText
+        android:id="@+id/question_scalenpole_left"
+        android:layout_width="621dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/answer_skalenpole_header"
+        android:layout_toLeftOf="@+id/answer_skalenpole_header"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="@string/study_edit_scaled_questions_scalepole_left_hint"
+        android:maxLines="1"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/question_scalenpole_right"
+        android:layout_width="621dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/question_scalenpole_left"
+        android:layout_alignBottom="@+id/question_scalenpole_left"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/answer_skalenpole_header"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="@string/study_edit_scaled_questions_scalepole_right_hint"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <View
+        android:id="@+id/scales_header_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/question_scalenpole_right"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/text_title" />
+
+    <View
+        android:id="@+id/scales_header_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/scales_header"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/text_title" />
+
+    <TextView
+        android:id="@+id/scales_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scales_header_line"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/study_edit_scaled_questions_scale_grades_headline"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="@color/text_title"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/scales_header_line2" >
+
+        <LinearLayout
+            android:id="@+id/scales_container_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

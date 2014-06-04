@@ -1,0 +1,23 @@
+#generated files
+bin/
+gen/
+
+local.properties
+
+# LaTeX 
+*.toc
+*.aux
+*.log
+*.pdf
+*.gz
+
+# emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+auto/

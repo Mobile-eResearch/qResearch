@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="76dp"
+    android:background="@color/studies_list_selector" >
+
+    <ImageView
+        android:id="@+id/answers_button_up"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/answer_label_num"
+        android:src="@drawable/arrow_up" />
+
+    <ImageView
+        android:id="@+id/answers_button_down"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/answer_label_num"
+        android:src="@drawable/arrow_down" />
+
+    <TextView
+        android:id="@+id/answer_label_num"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:text="1."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/answer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/answers_button_up"
+        android:gravity="center_vertical"
+        android:hint="@string/study_edit_closed_questions_dialog_hint"
+        android:maxLines="1"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:text="test text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/answer_remove"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:src="@drawable/ic_action_cancel" />
+
+    <ImageView
+        android:id="@+id/answer_attention_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/answer_remove"
+        android:gravity="center"
+        android:src="@drawable/ic_action_warning"
+        android:visibility="visible" />
+
+</RelativeLayout>

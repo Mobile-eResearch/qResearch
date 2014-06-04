@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle">
+
+    <fragment
+        android:id="@+id/fragment_study_edit_list"
+        android:name="de.eresearch.app.gui.StudyEditListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/activity_study_edit_right_pane"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" 
+        android:layout_marginLeft="5dp" 
+        android:layout_marginTop="5dp" />
+    
+
+</LinearLayout>

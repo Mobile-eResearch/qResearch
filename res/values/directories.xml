@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Import and export base folders -->
+   <string name="import_dir">/mnt/sdcard/Qapp/Import/%1$s</string>
+    <string name="export_dir">/mnt/sdcard/Qapp/Export/%1$s</string>
+    
+    <!-- root directory for audio records that are not exported -->
+    <string name="audiorecord_private_root">qResearchAudio</string>
+</resources>

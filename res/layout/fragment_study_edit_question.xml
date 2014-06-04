@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1_big_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/questions_presort_text_headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:text="@string/study_edit_question_presort_headline"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_title" />
+
+            <ImageView
+                android:id="@+id/fragment_study_question_addButton_pre"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_action_new_dark" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/presort_notice"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/study_edit_question_no_questions_error"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <View
+            android:id="@+id/questions_presort_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:background="@android:color/darker_gray"
+            android:textColor="@color/text_title" />
+
+        <ListView
+            android:id="@+id/questions_presort"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relativeLayout1" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2_big_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/questions_postsort_text_headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:text="@string/study_edit_question_postsort_headline"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_title" />
+
+            <ImageView
+                android:id="@+id/fragment_study_question_addButton_post"
+                android:layout_width="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_action_new_dark" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/postsort_notice"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/study_edit_question_no_questions_error"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <View
+            android:id="@+id/questions_postsort_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/relativeLayout2"
+            android:background="@android:color/darker_gray"
+            android:textColor="@color/text_title" />
+
+        <ListView
+            android:id="@+id/questions_postsort"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relativeLayout2" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

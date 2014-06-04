@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/log_notice"
+        android:icon="@drawable/ic_action_notice"
+        android:title="@string/qsort_parent_activity_notice" 
+        android:showAsAction="always"/>
+</menu>

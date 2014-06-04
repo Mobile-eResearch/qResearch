@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/log_dialog_note_pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@android:drawable/ic_media_play" />
+
+    <LinearLayout
+        android:id="@+id/log_dialog_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/log_dialog_note_pause"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/log_dialog_note_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/qsort_note_dialog_label" />
+
+        <EditText
+            android:id="@+id/log_dialog_note_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/qsort_note_dialog_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/log_dialog_linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/log_dialog_linear1"
+        android:layout_toRightOf="@+id/log_dialog_note_pause"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/log_dialog_note_timelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/log_dialog_note_label_time" />
+
+        <EditText
+            android:id="@+id/log_dialog_note_time_minutes"
+            android:layout_width="60dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/log_dialog_note_minutes_seconds" />
+        <EditText
+            android:id="@+id/log_dialog_note_time_seconds"
+            android:layout_width="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/log_dialog_note_seconds" />
+        
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/log_dialog_note_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/log_dialog_linear2"
+        android:hint="@string/qsort_note_dialog_note"
+        android:inputType="textMultiLine"
+        android:minHeight="200dp" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

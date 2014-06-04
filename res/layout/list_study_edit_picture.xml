@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="96dp"
+    android:background="?android:attr/activatedBackgroundIndicator" >
+
+     <LinearLayout
+        android:id="@+id/UpDownButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        >
+        
+     <ImageView
+        android:id="@+id/itemUpButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:src="@drawable/arrow_up" >
+    </ImageView>
+
+     <ImageView
+         android:id="@+id/itemDownButton"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+         android:layout_margin="8dp"
+         android:gravity="center"
+         android:src="@drawable/arrow_down" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/itemEditListPicture"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/UpDownButtons" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/itemDelButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:src="@drawable/ic_action_cancel" />
+
+    <TextView
+        android:id="@+id/itemFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignTop="@+id/itemEditListPicture"
+        android:layout_toRightOf="@+id/itemEditListPicture"
+        android:hint="tatata"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:paddingTop="4dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/itemStatement"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignLeft="@+id/itemFileName"
+        android:layout_alignTop="@+id/itemDelButton"
+        android:layout_toLeftOf="@+id/itemDelButton"
+        android:gravity="top"
+        android:hint="@string/study_edit_items_statement_hint"
+        android:maxLines="2"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:paddingTop="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

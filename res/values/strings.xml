@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="imageviewnodesc">no description</string>
+    
+    <string name="title_studies_activity">qResearch</string>
+    
+    <string name="gallery_select_all">&#160;Select all&#160;</string>
+    <string name="gallery_select_undo">&#160;Deselect all&#160;</string>
+    <string name="gallery_folders">Choose folder</string>
+    <string name="gallery_root">All</string>
+    <string name="gallery_folder_textview">Path:&#160;</string>
+    <string name="gallery_folder">Folders</string>
+
+    <!-- StudiesActivity -->
+    <string name="action_study_create">New Study</string>
+    <string name="action_studies_merge">Merge Studies</string>
+    <string name="action_study_template">Template from Study</string>
+    <string name="action_study_import">Import Study</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_imprint">Imprint</string>
+    <string name="action_finish_app">Exit Application</string>
+    <string name="text_imprint">imprint</string>
+    <string name="studies_list_head_search_hint">search</string>
+    <string name="studies_list_head_title">Studies</string>
+    <string name="error_there_are_qsorts">There are already collected Q-Sorts</string>
+    <string name="error_study_unfinished">You can not start a Q-Sort: Study is not complete, please edit!</string>
+
+    <string name="no_study_to_import">There is no study to import!</string>
+    <string name="study_import">Import study:</string>
+    <string name="study_import_title">Import</string>
+     <string name="study_import_title_list">Select study</string>
+     
+     <string name="study_import_name_exists_title">Name already exists</string>
+    <string name="study_import_name_exists_message">Please select a new name.</string>
+    <string name="study_import_name_exists_error">Error: The new name already exists. Please repeat the process.</string>
+    
+    <string name="study_import_in_folder">Studies in folder: </string>
+    <string name="study_import_with_qsorts">Import with Q-Sorts</string>
+    <string name="study_export_with_qsorts">Export with Q-Sorts</string>
+    <string name="study_exported_to">exported to</string>
+    <string name="study_exported">exported</string>
+    <string name="study_export_message">Do you really want to export the study?</string>
+    
+    <!-- StudiesActivity: ExitDialog -->
+    <string name="studies_activity_exitdialog_title">Do you want to quit the application?</string>
+    <string name="studies_activity_exitdialog_button_quit">Quit</string>
+    <string name="studies_activity_exitdialog_button_back">Back</string>
+
+    <!-- StudyFromTemplateDialog -->
+    <string name="study_from_template_dialog_title">Choose Template</string>
+    <string name="study_from_template_no_template">No Template available</string>
+    <string name="action_study_template_name">Template from </string>
+
+    <!-- QSortParentActivity -->
+    <string name="qsortparentactivity_toast_save_note">Note saved: </string>
+    <string name="qsortparentactivity_toast_unfinished_questions">Please consider every qustion, before you can advance to the next phase.</string>
+    <string name="qsortparentactivity_toast_unfinished_qsort">Please sort every item in the pyramid, before you can advance to the next phase.</string>
+
+    <!-- QSortParentActivity: QSortCancelDialog -->
+    <string name="qsortparentactivity_qsortcanceldialog_title">Do you want to quit the Q-Sort?</string>
+    <string name="qsortparentactivity_qsortcanceldialog_button_cancel">Cancel</string>
+    <string name="qsortparentactivity_qsortcanceldialog_button_ok">Ok</string>
+
+    <!-- QSortParentActivity: QSortPhaseFinishDialog -->
+    <string name="qsortparentactivity_qsortphasefinishdialog_title">Do you want to finish the phase?</string>
+    <string name="qsortparentactivity_qsortphasefinishdialog_button_cancel">Cancel</string>
+    <string name="qsortparentactivity_qsortphasefinishdialog_button_ok">Ok</string>
+
+    <!-- QSortParentActivity: QSortFinishDialog -->
+    <string name="qsortparentactivity_qsortfinishdialog_title">Do you want to finish the Q-Sort?</string>
+    <string name="qsortparentactivity_qsortfinishdialog_button_cancel">Cancel</string>
+    <string name="qsortparentactivity_qsortfinishdialog_button_ok">Ok</string>
+
+    <!-- StudiesActivity: QSortStartDialog -->
+    <string name="studies_activity_qsortstartdialog_title">Q-Sort start</string>
+    <string name="studies_activity_qsortstartdialog_audiorecord_checkbox">Audio record</string>
+    <string name="studies_activity_qsortstartdialog_audiorecord_hint">The audio recording starts immediately after pressing the \'Start\' button.</string>
+    <string name="studies_activity_qsortstartdialog_interviewee_identifier_title_textview">Interviewee identifier</string>
+    <string name="studies_activity_qsortstartdialog_interviewee_identifier_textview">Enter interviewee identifier...</string>
+    <string name="studies_activity_qsortstartdialog_button_cancel">Cancel</string>
+    <string name="studies_activity_qsortstartdialog_button_start">Start</string>
+
+    <!-- StudiesDetailFragment -->
+    <string name="studiesDetail_question_title">Research Question</string>
+    <string name="studiesDetail_description_title">Description</string>
+    <string name="studiesDetail_author_title">Author</string>
+    <string name="studiesDetail_button_qsort_start">Start Q-Sort</string>
+    <string name="studiesDetail_button_qsort_view">View Q-Sorts</string>
+    <string name="studiesDetail_button_study_edit">Edit</string>
+    <string name="studiesDetail_button_study_export">Export</string>
+    <string name="studiesDetail_button_study_delete">Delete</string>
+
+    <!-- Studies Activity: AppSettingsDialog -->
+    <string name="dialog_appsettings_dialog_title">Settings</string>
+    <string name="dialog_appsettings_charger_code_title">Code of Charger</string>
+    <string name="dialog_appsettings_charger_code_hint">Enter code...</string>
+    <string name="dialog_appsettings_language_title">Language</string>
+    <string name="dialog_appsettings_button_cancle">Cancel</string>
+    <string name="dialog_appsettings_button_save">Save</string>
+    <string name="dialog_appsettings_language_english">English</string>
+    <string name="dialog_appsettings_language_german">German</string>
+
+    <string-array name="studiesDetailMenu">
+        <item>Start Q-Sort</item>
+        <item>View Q-Sorts</item>
+        <item>Edit</item>
+        <item>Export</item>
+        <item>Delete</item>
+    </string-array>
+
+    <!-- StudyEditDialog -->
+    <string name="study_edit_dialog_message">Changing the study may result in inability to merge with other studies!</string>
+
+    <!-- StudyOnBackPressedDialog -->
+    <string name="study_onback_metadata_message">Do you want to save study before leaving?</string>
+
+    <!-- StudyEditQuestionSelectorDialog -->
+    <string name="study_questions_type_message">Choose the type of question</string>
+
+    <!-- StudyEditActivity -->
+    <string name="title_study_edit_activity">New/Edit Study</string>
+    <string name="dialog_discard">Discard</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="study_edit_no_name_error">Error: you must enter a study name</string>
+	<string name="study_edit_duplicate_name_error">Error: Study name is already in use</string>
+    <!-- StudyMergeActivity -->
+    <string name="merge_not_enough_studies_selected"> Error: you must select at least two studies</string>
+    
+    <!-- aus der strings.xml in values -->
+
+    <string name="app_name">qResearch</string>
+
+    <!-- StudyEditMetaDataFragment -->
+    <string name="metadata_edit_field1">Study Name</string>
+    <string name="metadata_edit_field3">Research Question</string>
+    <string name="metadata_edit_field4">Descritption</string>
+    <string name="metadata_edit_field5">Author</string>
+    <string name="metadata_edit_field6">Notes</string>
+    <string name="metadata_edit_hint1">Enter study name...</string>
+    <string name="metadata_edit_hint2">Enter research question...</string>
+    <string name="metadata_edit_hint3">Enter description...</string>
+    <string name="metadata_edit_hint4">Enter author...</string>
+    <string name="metadata_edit_hint5">Enter notes...</string>
+    <string name="metadata_error_message1">Required field not filled in!</string>
+    <string name="metadata_menuitem1">Required field not filled in!</string>
+
+    <!-- StudySaveMetaDataDialog -->
+
+    <string name="study_edit_dialog_title">Change this study?</string>
+    <string name="study_delete_dialog_title">Delete this study?</string>
+    <string name="study_delete_dialog_message">Do you really want to delete the study?</string>
+    <string name="study_save_metadata_message">Save Study?</string>
+
+    
+    <string name="dialog_delete_qsorts_title">Delete Q-Sort?</string>
+    
+    <!-- StudyEditItemsFragment -->
+    <string name="study_edit_items_message">First items in list will be displayed first in Q-Sort.</string>
+    <string name="study_edit_items_no_items_message">There are no items. By clicking on the plus-icon add new items.</string>
+    <string name="study_edit_items_heading">Items</string>
+    <string name="error_only_images">You can only add images!</string>
+    <string name="study_edit_items_statement_hint">Please add a statement</string>
+    <string name="study_edit_items_status">Please add as much items as pyramid is large!</string>
+    <string name="study_edit_items_statement_dialog_desc">Description:</string>
+
+    <!-- QSortActivitys -->
+    <string name="title_qsort_activity">Sorting</string>
+    <string name="action_qsort_help">Help</string>
+    <string name="action_qsort_notice">Notice</string>
+    <string name="action_qsort_pause">Pause</string>
+    <string name="action_qsort_cancle">Cancel</string>
+    <string name="action_qsort_finish">Finish phase</string>
+    <string name="qsort_activity_title">Sorting</string>
+
+    <!-- QSortStartPhaseActivitys -->
+    <string name="qsort_start_phase_start_button">Start</string>
+    
+    <!-- Phases -->
+    <string name="phase_title_presort">Questions before</string>
+    <string name="phase_title_postsort">Qquestions afterwards</string>
+    <string name="phase_title_qsort">Sorting</string>
+    <string name="phase_title_interview">Interview</string>
+
+    <!-- QSortParentActivitys -->
+    <string name="qsort_parent_activity_help">Help</string>
+    <string name="qsort_parent_activity_notice">Notice</string>
+    <string name="qsort_parent_activity_pause">Pause</string>
+    <string name="qsort_parent_activity_cancle">Cancel</string>
+    <string name="qsort_parent_activity_finish">Finish phase</string>
+
+    <!-- QSortPauseDialog -->
+
+
+    <!-- Question/Answer Activity -->
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="question_presort">Question Presort</string>
+    <string name="question_postsort">Question Postsort</string>
+    <string name="title_question_answer_activity">Question Answer</string>
+
+    <!-- QSortParentActivity -->
+    <string name="qsort_parent_activity_pause_alertdialog_title">Q-Sort paused!</string>
+    <string name="qsort_parent_activity_pause_alertdialog_button">Continue</string>
+
+    <!-- QSortNoticeDialog -->
+    <string name="qsort_note_dialog_title">Note</string>
+    <string name="qsort_note_dialog_label">Title:</string>
+    <string name="qsort_note_dialog_note">Enter the note...</string>
+    <string name="qsort_note_dialog_cancle">Cancel</string>
+    <string name="qsort_note_dialog_ok">Ok</string>
+    <string name="qsort_note_dialog_error">Please enter note!</string>
+    <string name="qsort_note_dialog_title_presort">Question presort</string>
+    <string name="qsort_note_dialog_title_postsort">Question postsort</string>
+    <string name="qsort_note_dialog_title_interview">Interview</string>
+    <string name="qsort_note_dialog_title_qsort">Q-Sort</string>
+
+    <!-- LogParentActivity -->
+    <string name="log_header_title">Log</string>
+    <string name="log_dialog_note_minutes_seconds">m:</string>
+    <string name="log_dialog_note_seconds">s</string>
+    <string name="log_dialog_note_label_time">Time:</string>
+    
+    <!-- StudyEditPyramidFragment -->
+    <string name="leftPoleHint">Enter left pole text (max. 50 characters)</string>
+    <string name="rightPoleHint">Enter right pole text (max. 50 characters)</string>
+    <string name="distribution_title">Distribution</string>
+    <string name="fieldCount_title">Field count</string>
+    <string name="columnCount_title">Column count</string>
+    <string name="distPole_title">Poles</string>
+    <string name="setallfields">Please fill out all fields correctly!</string>
+    <string name="study_items_edit_error_message">Please add the same amount of items as in the distribution.</string>
+
+    <!-- StudyEditQuestionFragment -->
+    <string name="study_edit_question_presort_headline">Pre-sort questions</string>
+    <string name="study_edit_question_postsort_headline">Post-sort questions</string>
+    <string name="study_edit_question_type_open">Open</string>
+    <string name="study_edit_question_type_closed">Closed</string>
+    <string name="study_edit_question_type_scale">Scale</string>
+    <string name="study_edit_question_no_questions_error">No questions found, please add a new question!</string>
+    <string name="study_edit_question_not_full_error">Question is not completely filled!</string>
+    <string name="study_edit_question_tipp">Questions will be shown in the order in which they were added</string>
+    <string name="study_edit_question">Question</string>
+    <string name="study_edit_answer">Answer</string>
+    <string name="study_edit_scale">Scale</string>
+    <string name="study_edit_question_hint">Please, enter a question</string>
+    <string name="study_edit_closed_questions_answers_headline">Answers</string>
+    <string name="study_edit_closed_questions_scales_headline">Scales</string>
+    <string name="study_edit_closed_questions_checkbox_freetext">Free text field</string>
+    <string name="study_edit_closed_questions_checkbox_multiple">Multiple choice possibility</string>
+    <string name="study_edit_closed_questions_no_answers_error">No answers found, please add new answers!</string>
+    <string name="study_edit_closed_questions_dialog_hint">Please, enter an answer…</string>
+    <string name="study_edit_scaled_questions_no_scales_error">No scales found, please add new scales!</string>
+    <string name="study_edit_scaled_questions_spinner_tipp">Number of scales</string>
+    <string name="study_edit_scaled_questions_scalepoles_headline">Scale poles</string>
+    <string name="study_edit_scaled_questions_scalepole_left_hint">Left pole…</string>
+    <string name="study_edit_scaled_questions_scalepole_right_hint">Right pole…</string>
+    <string name="study_edit_scaled_questions_scale_grades_headline">Scale grades (left to right)</string>
+    <string name="study_edit_scaled_questions_scale_grades_hint">Scale grade</string>
+
+    <!-- QSorts Detail -->
+    <string name="qsortsDetail_description_proband">Proband</string>
+    <string name="qsortsDetail_description_researcher">Researcher</string>
+    <string name="qsortsDetail_description_time">Length of QSort</string>
+    <string name="qsortsDetail_description_distribution">Distribution</string>
+    <string name="qsortsDetail_description_information">Information</string>
+
+    <string-array name="qsortsDetailMenuLogs">
+        <item>Distribution of pyramid</item>
+        <item>Questions presort</item>
+        <item>Q-Sort</item>
+        <item>Questions postsort</item>
+        <item>Interview</item>
+    </string-array>
+    <string-array name="qsortsDetailMenuQuestions">
+        <item>Questions presort</item>
+        <item>Questions postsort</item>
+    </string-array>
+
+    <string name="qsortsDetail_description_logs">Logs</string>
+    <string name="qsortsDetail_description_questions">Questions and Answers</string>
+    <string name="qsortsDetail_description_notes">Notes</string>
+    <string name="qsort_pre_postsort_answer">please enter the answer here</string>
+    <string name="title_qsorts_activity">QSorts</string>
+
+    <string-array name="qsortsDetailMenuNotes">
+        <item>Notes</item>
+    </string-array>
+	
+    <string name="dialog_qsorts_delete_message">Do you really want to delete that QSort ?</string>
+    
+    <string name="qsorts_list_head_title">QSorts</string>
+    <string name="title_interview_activity">Interview</string>
+    
+    <!-- NotesActivity -->
+	<string name="notes_list_head_title">Notes</string>
+	<string name="notes_activity_title">Notes</string>
+    <string name="notesDetail_description_title">Title</string>
+	<string name="notesDetail_description_text">Note</string>
+    <string name="note_delete_dialog_message">Do you really want to delete this note?</string>
+    <string name="note_save_dialog_message">Do you really want to save?</string>
+    <string name="dialog_save">Save</string>
+    
+    <!-- NotesCancel Dialog -->
+    <string name="notes_activity_exitdialog_message">All unsaved data will be lost!</string>
+    <string name="notes_activity_exitdialog_title">Do you really want to leave?</string>
+    <string name="notes_activity_exitdialog_button_exit">Continue</string>
+    <string name="notes_activity_exitdialog_button_back">Cancel</string>
+    
+    <!-- Loggables -->
+    <string name="loggable_logentry">%1$s moved from %2$s to %3$s</string>
+    <string name="loggable_logentry_in">%1$s sorted in to %2$s</string>
+    <string name="loggable_logentry_out">%1$s sorted out from %2$s</string>
+    <string name="loggable_note">Note added: %1$s</string>
+    <string name="loggable_answer">Question answered: %1$s</string>
+    <string name="loggable_not_answer">Question not answered: %1$s</string>
+    <string name="loggable_not_answer_openquestion">Question not answered...</string>
+    
+	<string name="logentry_moved_from"> moved from </string>
+	<string name="logentry_to"> to </string>
+	<string name="note_note_added">Note added: </string>
+	<string name="answer_question_answered">Question answered: </string>
+
+	<!-- QuestionAnswerActivity -->
+    <string name="question_answer_activity_title">Questions</string>
+    <string name="question_title">Question</string>
+    <string name="answer_title">Answer</string>
+    <string name="dummy_answer_text">No answer given by the proband</string>
+    
+    <!-- CustomGalleryActivity -->
+    <string name="gallery_title">Choose pictures</string>
+
+
+</resources>

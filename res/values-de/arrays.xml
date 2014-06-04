@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- StudyEditListFragment -->
+    <string-array name="study_edit_list_rows">
+        <item>Allgemeines</item>
+        <item>Verteilung</item>
+        <item>Items</item>
+        <item>Befragung</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_action_new_dropdown"
+        android:showAsAction="ifRoom">
+    <menu>
+        <item
+            android:id="@+id/action_add"
+            android:title="@string/action_study_create" />
+        <item
+            android:id="@+id/action_template"
+            android:title="@string/action_study_template" />
+        <item
+            android:id="@+id/action_merge"
+            android:title="@string/action_studies_merge" />
+        <item
+            android:id="@+id/action_import"
+            android:title="@string/action_study_import" />   
+    </menu>
+    </item>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_imprint"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_imprint"/>
+    
+     <item
+        android:id="@+id/action_finish"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_finish_app"/>
+    <!-- TODO: Impressum, Applikation beenden, icon for Einstellungen -->
+</menu>

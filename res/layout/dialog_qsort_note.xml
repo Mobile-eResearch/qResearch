@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/qsort_dialog_note_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/qsort_dialog_note_title"
+        android:layout_alignBottom="@+id/qsort_dialog_note_title"
+        android:layout_alignParentLeft="true"
+        android:text="@string/qsort_note_dialog_label" />
+
+    <EditText
+        android:id="@+id/qsort_dialog_note_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/qsort_dialog_note_label"
+        android:hint="@string/qsort_note_dialog_title" />
+
+    <EditText
+        android:id="@+id/qsort_dialog_note_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qsort_dialog_note_label"
+        android:hint="@string/qsort_note_dialog_note"
+        android:inputType="textMultiLine"
+        android:minHeight="200dp" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_appsettings_textview_code_title"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_appsettings_charger_code_title" />
+
+    <EditText
+        android:id="@+id/dialog_appsettings_edittext_code_title"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_appsettings_textview_code_title"
+        android:hint="@string/dialog_appsettings_charger_code_hint"
+        android:ems="10"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/dialog_appsettings_textview_language_title"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_appsettings_edittext_code_title"
+        android:layout_marginTop="20dp"
+        android:text="@string/dialog_appsettings_language_title" />
+
+    <Spinner
+        android:id="@+id/dialog_appsettings_language_spinner"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_appsettings_textview_language_title" />
+
+</RelativeLayout>

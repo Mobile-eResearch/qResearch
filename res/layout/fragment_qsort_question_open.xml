@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget39"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/fragment_qsort_question_open_field"
+        android:layout_width="852dp"
+        android:layout_height="159dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="32dp"/>
+    
+
+    <EditText
+        android:id="@+id/fragment_qsort_question_open_answerfield"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="282dp"
+        android:hint="@string/qsort_pre_postsort_answer" >
+    </EditText>
+
+
+
+</LinearLayout>

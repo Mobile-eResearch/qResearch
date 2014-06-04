@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <CheckBox
+        android:id="@+id/dialog_qsort_start_checkbox_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/studies_activity_qsortstartdialog_audiorecord_checkbox" />
+
+    <TextView
+        android:id="@+id/dialog_qsort_start_textview_audio_record_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/dialog_qsort_start_checkbox_record"
+        android:text="@string/studies_activity_qsortstartdialog_audiorecord_hint" />
+
+    <TextView
+        android:id="@+id/dialog_qsort_start_textview_interviewee_identifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/dialog_qsort_start_textview_audio_record_hint"
+        android:text="@string/studies_activity_qsortstartdialog_interviewee_identifier_title_textview" />
+
+    <EditText
+        android:id="@+id/dialog_qsort_start_edittext_interviewee_identifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/dialog_qsort_start_textview_interviewee_identifier"
+        android:hint="@string/studies_activity_qsortstartdialog_interviewee_identifier_textview" />
+
+</RelativeLayout>
