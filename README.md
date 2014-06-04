@@ -14,7 +14,3 @@ Features:
 
 _For more Information visit http://eresearch.informatik.uni-bremen.de/_
 
-
-The Sourcecode will be available soon!!!
-
-
