@@ -18,4 +18,4 @@ _For more Information visit http://eresearch.informatik.uni-bremen.de/_
 Documentation
 --------------
 
-http://research.informatik.uni-bremen.de/doxygen
+http://eresearch.informatik.uni-bremen.de/doxygen
