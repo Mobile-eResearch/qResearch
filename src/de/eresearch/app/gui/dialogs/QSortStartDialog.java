@@ -26,6 +26,12 @@ import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
 
+/**
+* Class for the start-dialog, to start a QSort
+*
+* @author domme
+*
+*/
 public class QSortStartDialog extends Dialog implements GetQuestionsTask.Callbacks,
         SaveQSortTask.Callbacks {
 

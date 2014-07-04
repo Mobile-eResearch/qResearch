@@ -28,6 +28,11 @@ import de.eresearch.app.logic.model.Picture;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+/**
+* Custom ArrayAdapter for LogParentActivity
+* @author domme
+*
+*/
 public class LogListArrayAdapter extends ArrayAdapter<Loggable> {
 
     private final Context mContext;

@@ -20,6 +20,12 @@ import de.eresearch.app.logic.model.OpenAnswer;
 import de.eresearch.app.logic.model.OpenQuestion;
 import de.eresearch.app.logic.model.ScaleQuestion;
 
+/**
+* Class for a dialog, to view the questions in the log
+*
+* @author domme
+*
+*/
 public class ViewQuestionDialog extends Dialog {
 
     private Context mContext;

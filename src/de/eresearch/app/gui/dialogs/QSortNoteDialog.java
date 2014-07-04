@@ -20,6 +20,12 @@ import de.eresearch.app.logic.model.QSort;
 import de.eresearch.app.logic.tasks.media.SaveNoteTask;
 import de.eresearch.app.logic.tasks.media.SaveNoteTask.Callbacks;
 
+/**
+* Class for the note-dialog to add a note in the QSort
+*
+* @author domme
+*
+*/
 public class QSortNoteDialog extends Dialog  implements SaveNoteTask.Callbacks{
 
     private Context mContext;

@@ -9,6 +9,12 @@ import android.content.DialogInterface;
 import de.eresearch.app.R;
 import de.eresearch.app.gui.CurrentQSort;
 
+/**
+* Class for the pause-dialog, to pause the QSort
+*
+* @author domme
+*
+*/
 public class QSortPauseDialog extends Dialog {
 
     Context mContext;

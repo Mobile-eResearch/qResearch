@@ -30,6 +30,10 @@ import de.eresearch.app.logic.tasks.media.SaveNoteTask;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+/**
+* Activity to provide UI for the log of a phase
+* @author Dominic
+*/
 public class LogParentActivity extends Activity implements GetLoggablesTask.Callbacks,
         GetQSortTask.Callbacks, SaveNoteTask.Callbacks {
 
