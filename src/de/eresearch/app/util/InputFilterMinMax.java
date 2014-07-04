@@ -3,6 +3,12 @@ package de.eresearch.app.util;
 import android.text.InputFilter;
 import android.text.Spanned;
 
+/**
+ * Input filter for a EditText view to allow only numbers between two boundarys
+ *
+ * @author Pratik Sharma
+ * @see <a href="http://stackoverflow.com/a/14212734">StackOverFlow - InputFilterMinMax by Pratik Sharma</a>
+ */
 public class InputFilterMinMax implements InputFilter {
 
     private int min, max;
